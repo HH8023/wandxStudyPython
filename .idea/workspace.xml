@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythonBase/listAndTuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonBase/string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonBase/conditional.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/hello.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonBase/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="836">
               <caret line="44" column="13" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="13" />
             </state>
           </provider>
@@ -27,17 +25,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonBase/string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="295">
               <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonBase/listAndTuple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="385">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythonBase/conditional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -61,12 +68,13 @@
         <option value="$PROJECT_DIR$/pytest/hello.py" />
         <option value="$PROJECT_DIR$/pythonBase/string.py" />
         <option value="$PROJECT_DIR$/pythonBase/listAndTuple.py" />
+        <option value="$PROJECT_DIR$/pythonBase/conditional.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1382" />
-    <option name="y" value="36" />
+    <option name="x" value="1588" />
+    <option name="y" value="50" />
     <option name="width" value="1560" />
     <option name="height" value="1670" />
   </component>
@@ -83,11 +91,6 @@
             <path>
               <item name="study-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-python" type="462c0819:PsiDirectoryNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-python" type="b2602c69:ProjectViewProjectNode" />
@@ -130,18 +133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1582377628884</updated>
       <workItem from="1582377630956" duration="3452000" />
-      <workItem from="1582728599870" duration="5284000" />
+      <workItem from="1582728599870" duration="5472000" />
+      <workItem from="1582813542998" duration="5894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8736000" />
+    <option name="totallyTimeSpent" value="14818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="691" y="18" width="780" height="835" extended-state="0" />
+    <frame x="794" y="25" width="780" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569061" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28314918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,13 +172,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pythonBase/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytest/hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -182,17 +179,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pythonBase/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythonBase/string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="295">
           <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonBase/listAndTuple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="385">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonBase/conditional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
