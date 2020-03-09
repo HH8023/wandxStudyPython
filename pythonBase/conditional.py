@@ -74,3 +74,22 @@ print('所以，dict是用空间来换取时间的一种方法')
 
 
 # set
+
+# set 和dict类似，也是一组key，单不存储value，由于key不能重复，所以在set中，没有重复的key
+s = set([1, 3, 2])
+print('set的key', s)
+
+s1 = set([1, 2, 3, 4, 3, 1, 6])
+print('set的方法可以重复添加，但是不会有效果', s1)
+
+s1.add(3)
+print('给s1添加一个key为3的元素，但是因为原本就有，所以添加没有效果', s1)
+
+s1.add(7)
+print('添加s1的key为7的元素，原本s1里没有，所以会生效，s1.add(7)=', s1)
+
+s1.remove(4)
+print('通过remove()的方法进行删除元素，s1.remove()=', s1)
+
+print('s1 & s的交集', s1 & s)
+print('s1 | s的并集', s1 | s)
