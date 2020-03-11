@@ -148,3 +148,26 @@ print('在python中，定义一个函数要使用def语句，依次写出函数�
 print('空函数')
 
 print('如果想定义什么事也不做的空函数，可以用pass语句')
+# def nop()
+#     pass
+
+print('pass语句什么都不做，实际上pass可以用来当作占位符'
+      '比如现在还没想好怎么写函数的代码，就可以先放一个pass'
+      '让代码能运行起来')
+
+
+# 参数检查
+print('参数检查')
+print('调用函数时，如果参数个数不对，python解释器会自动检查出来，并抛出TypeError')
+
+print('数据类型检查可以用内置函数isinstance()实现')
+
+# 返回多个值 
+print('返回多个值')
+print('比如在游戏中，需要从一个点移动到另一个点'
+      '给出坐标、位移和角度，就可以计算出新的坐标')
+# import math    # 导入math包
+# def move(x, y, step, angle=0):
+#     nx = x + step * math.cos(angle)
+#     ny = y - step * math.sin(angle)
+#     return nx, ny
