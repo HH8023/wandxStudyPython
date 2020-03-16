@@ -53,3 +53,19 @@ print('用发：在参数前面加一个 * 号即为可变参数，'
 print('可变参数允许传入0个或任意个参数，这些可变参数在函数条用时自动组装成一个tuple；'
       '而关键字参数也允许传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装成一个dict；')
 
+# def person(name, age, **kw):
+#       print('name', name, 'age', age, 'other', kw)
+print('person(\'bob\', 20, city=\'beijing\'),即city是任意参数')
+print('person函数除了必选参数name和age外还接受关键字参数kw。'
+      '在调用函数时，可以只传入必选参数')
+
+print('在做用户注册的功能，除了用户名和年龄是必须，其他都是可选项，'
+      '利用关键字参数来定义这个函数就可以满足注册的需求')
+print('可以和可变参数类似，先组装出一个dict，然后把该dict转换成关键字参数传进去')
+
+# extra = {'city': 'Beijing', 'Job': 'Engineer'}
+# person('Jack', 20, city=extra['city'], Job=extra['Job'])
+# person('Jack', 20, **extra)         # 与上一行结果一样
+print('**extra表示把extra这个dict的所有key-value用关键字参数传入函数的**kw参数中'
+      'kw将获得一个dict，注意kw获得的dict是extra的一份拷贝，'
+      '对kw的改动不会影响到函数外的extra')
