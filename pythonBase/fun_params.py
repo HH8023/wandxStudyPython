@@ -69,3 +69,36 @@ print('可以和可变参数类似，先组装出一个dict，然后把该dict�
 print('**extra表示把extra这个dict的所有key-value用关键字参数传入函数的**kw参数中'
       'kw将获得一个dict，注意kw获得的dict是extra的一份拷贝，'
       '对kw的改动不会影响到函数外的extra')
+
+
+# 命名关键字参数
+print('命名关键字参数')
+# 命名关键字参数，函数的调用者可以传入任意不受限制的关键字参数
+# 至于到底传入哪写，就需要在函数内部通过kw检查
+# 还是上面的person的例子，我们希望检查是否有city和job参数
+def person(name, age, **kw):
+    if 'city' in kw:
+        # 有city参数
+        pass
+    if 'job' in kw:
+        # 有job参数
+        pass
+    print('name：', name, 'age:', age, 'other:', kw)
+#     但调用者仍可以传入不受限制的关键字参数
+# 想要限制关键字参数的名字，就可以用命名关键字参数，
+# 例如：只接收city和job作为关键字参数，定义的函数如下
+def person(name, age, *, city, job):
+    print(name, age, city, job)
+print('和关键字参数**kw不同，命名关键字参数需要一个特殊分隔符*， '
+      '* 后面的参数被视为命名关键字参数')
+print('调用方式如下：'
+      'person(\'jack\', 24, city=\'beijing\', job=\'engnineer\')')
+print('命名关键字参数必须传入参数名，这个和位置参数不同，'
+      '如果没有传入参数名，调用将报错')
+print('也可以给参数传入默认值，在调用的时候，可不传入带默认值的参数；')
+print('使用命名关键字参数时，要特别注意，* 不是参数，而是特殊分隔符')
+print('如果缺少 * ，python解释器将无法识别位置参数和命名关键字参数')
+
+
+# 参数组合
+print('参数组合')
