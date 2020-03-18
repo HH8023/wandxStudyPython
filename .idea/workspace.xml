@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pythonBase/fun_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonBase/fun_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonBase/recursion_fun.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +13,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonBase/functionTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonBase/listAndTuple.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
@@ -30,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonBase/fun_params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="2964">
               <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythonBase/recursion_fun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -67,6 +67,7 @@
         <option value="$PROJECT_DIR$/pythonBase/conditional.py" />
         <option value="$PROJECT_DIR$/pythonBase/functionTest.py" />
         <option value="$PROJECT_DIR$/pythonBase/fun_params.py" />
+        <option value="$PROJECT_DIR$/pythonBase/recursion_fun.py" />
       </list>
     </option>
   </component>
@@ -138,18 +139,18 @@
       <workItem from="1584023517057" duration="4181000" />
       <workItem from="1584285062294" duration="1637000" />
       <workItem from="1584366486705" duration="4398000" />
-      <workItem from="1584544382124" duration="2019000" />
+      <workItem from="1584544382124" duration="2798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32350000" />
+    <option name="totallyTimeSpent" value="33129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="767" y="29" width="780" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33287293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33287293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,8 +221,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonBase/fun_params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="2964">
           <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonBase/recursion_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
