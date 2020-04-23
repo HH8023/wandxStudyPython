@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_code_book/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonBase/hightCharacter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_code_book/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_code_book/test4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python_code_book/test4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+            <state relative-caret-position="200">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,8 +83,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1652" />
-    <option name="y" value="108" />
+    <option name="x" value="1458" />
+    <option name="y" value="118" />
     <option name="width" value="1378" />
     <option name="height" value="1670" />
   </component>
@@ -159,16 +157,15 @@
       <workItem from="1584366486705" duration="4398000" />
       <workItem from="1584544382124" duration="2867000" />
       <workItem from="1585067140966" duration="1954000" />
-      <workItem from="1587653183577" duration="3604000" />
+      <workItem from="1587653183577" duration="4566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38756000" />
+    <option name="totallyTimeSpent" value="39718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="826" y="54" width="689" height="835" extended-state="0" />
-    <editor active="true" />
+    <frame x="729" y="59" width="689" height="835" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34123224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -265,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_code_book/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+        <state relative-caret-position="200">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
         </state>
       </provider>
     </entry>
