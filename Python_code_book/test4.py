@@ -72,5 +72,13 @@ print(my_num)
 print('朋友的数字：')
 print(firend_num)
 
+print('--------------定义元组--------------')
+print('元组看起来像列表，但使用圆括号而不是方括号；定义之后，可以用索引来访问元素，就像访问列表元素一样')
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+print('不能给元组的元素赋值(eg:dimensions[0]=100)，这样会报错，但是可以给元组的变量赋值（eg:dimensions=(100,100)）')
+print('可以用for循环来遍历元组中的所有值')
+
 
 
