@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_code_book/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_code_book/test6-字典.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +34,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>tuple</find>
-      <find>dict</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +72,7 @@
       <workItem from="1584544382124" duration="2867000" />
       <workItem from="1585067140966" duration="1954000" />
       <workItem from="1587653183577" duration="4566000" />
-      <workItem from="1587691599129" duration="3584000" />
+      <workItem from="1587691599129" duration="8538000" />
     </task>
     <servers />
   </component>
