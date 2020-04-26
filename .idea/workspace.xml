@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_code_book/test6-字典.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_code_book/test7--用户输入和while.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_code_book/test7--用户输入和while.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -72,7 +74,8 @@
       <workItem from="1584544382124" duration="2867000" />
       <workItem from="1585067140966" duration="1954000" />
       <workItem from="1587653183577" duration="4566000" />
-      <workItem from="1587691599129" duration="8538000" />
+      <workItem from="1587691599129" duration="8872000" />
+      <workItem from="1587891642675" duration="4205000" />
     </task>
     <servers />
   </component>
@@ -89,5 +92,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1110" y="271" width="649" height="580" key="DiffContextDialog" timestamp="1587714153959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1110" y="271" width="649" height="580" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587714153959" />
+    <state x="1110" y="271" width="649" height="580" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587714153959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1110" y="271" width="649" height="580" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587714153959" />
   </component>
 </project>
