@@ -30,7 +30,53 @@ my_dog1.sit()
 your_dog.sit()
 
 print('--------------------使用类和实例------------------------')
-print('大部分时间都将花在使用根据类创建的实例上。')
+print('大部分时间都将花在使用根据类创建的实例上。需要执行的一个重要任务是修改实例的属性。'
+      '你可以直接修改实例的属性，也可以编写方法以特定的方式进行修改。')
+
+print('汽车类')
+class Car():
+    """
+    一次模拟汽车的简单尝试
+    """
+    def __init__(self, make, model, year):
+        """初始化描述汽车的属性"""
+        self.make = make
+        self.model = model
+        self.year = year
+    def get_des_name(self):
+        """返回整洁的描述性信息"""
+        long_name = str(self.year)+' '+self.make+' '+self.model
+        return long_name.title()
+my_new_car = Car('audi', 'a4', 2019)
+print(my_new_car.get_des_name())
+
+print('---给属性指定默认值----')
+
+class Car1():
+    """
+    一次模拟汽车的简单尝试
+    """
+    def __init__(self, make, model, year):
+        """初始化描述汽车的属性"""
+        self.make = make
+        self.model = model
+        self.year = year
+        self.odometer_reading = 0
+    def get_des_name(self):
+        """返回整洁的描述性信息"""
+        long_name = str(self.year)+' '+self.make+' '+self.model
+        return long_name.title()
+    def read_odometer(self):
+        """打印一条指出汽车里程的消息"""
+        print("this car has "+ str(self.odometer_reading)+ " miles on it.")
+my_new_car1 = Car1('audi', 'a4', 2019)
+print(my_new_car1.get_des_name())
+my_new_car1.read_odometer()
+
+print('----修改属性的值----'
+      '以三种不同的方式修改属性的值：1、直接通过实例修改；2、通过方法进行设置；3、通过方法进行递增（增加特定的值）')
+print('--1、直接修改属性的值--')
+
 
 
 

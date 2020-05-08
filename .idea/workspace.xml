@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_code_book/making_pizzas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_code_book/pizza.py" afterDir="false" />
+    <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="习题练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_code_book/test8--函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_code_book/test8--函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_code_book/test9--类.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_code_book/test9--类.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +78,22 @@
       <workItem from="1587891642675" duration="4205000" />
       <workItem from="1588086598911" duration="30000" />
       <workItem from="1588086642558" duration="2402000" />
+      <workItem from="1588755536224" duration="2325000" />
+      <workItem from="1588836637751" duration="2605000" />
+      <workItem from="1588928011129" duration="2515000" />
     </task>
+    <task id="LOCAL-00001" summary="习题练习">
+      <created>1588843637170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588843637170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -111,6 +120,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="习题练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="习题练习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1110" y="271" width="649" height="580" key="DiffContextDialog" timestamp="1587714153959">
