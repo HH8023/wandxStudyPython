@@ -130,6 +130,52 @@ class ElectricCar(Car11):
 my_tesla = ElectricCar('tesla', 'models',2019)
 print(my_tesla.update_odometer(20))
 
+print('-----给子类定义属性和方法-------')
+print('跟父类添加属性和方法一样。即在super()下面接着使用self.xxx = xxx 来定义')
+
+print('----重写父类的方法-------')
+print('在子类中定义一个与父类同名的方法，即可重写父类的方法。')
+
+print('--将实例用作属性--')
+class Car22():
+    '''
+    --snip--
+    '''
+    def __init__(self,make,model,year):
+        self.make = make
+        self.model = model
+        self.year = year
+    def get_desc_name(self):
+        long_name = str(self.year) + ' ' + self.make + ' ' + self.model
+        return long_name
+class Battery():
+    def __init__(self, battery_size=70):
+        self.battery_size = battery_size
+    def describe_battery(self):
+        print("打印一条描述电瓶容量的消息")
+class ElectricCar(Car22):
+    def __init__(self, make, model, year):
+        '''
+        :param make:
+        :param model:
+        :param year:
+        '''
+        super().__init__(make,model,year)
+        self.battery = Battery()
+my_tesla1 = ElectricCar('tesla','model s', 2016)
+print(my_tesla1.get_desc_name())
+my_tesla1.battery.describe_battery()
+
+print('9.4导入类')
+print('--导入单个类--')
+print('使用 from 文件名 import 类名：')
+print('--可以在一个文件里存储多个类，这些类之间可能是继承关系--')
+print('从一个模块中导入多个类：-- from 文件名 import 类名1，类名2，...-- ；可使用 * 号代表全部类名')
+
+print('导入整个模块：')
+print('直接使用 import 文件名  导入整个文件，在文件里再使用 . 类名来创建实例')
+
+
 
 
 
