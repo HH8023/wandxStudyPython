@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1112d481-5dad-41f9-984a-4c62495f9bf8" name="Default Changelist" comment="习题练习">
+      <change afterPath="$PROJECT_DIR$/Python_code_book/pi_digits.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_code_book/test9--类.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_code_book/test9--类.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_code_book/test10--文件和异常.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_code_book/test10--文件和异常.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +54,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\wandx\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,6 +88,8 @@
       <workItem from="1588755536224" duration="2325000" />
       <workItem from="1588836637751" duration="2605000" />
       <workItem from="1588928011129" duration="2515000" />
+      <workItem from="1589465254114" duration="3624000" />
+      <workItem from="1590332615796" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="习题练习">
       <created>1588843637170</created>
@@ -126,13 +135,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="习题练习" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="902" y="341" width="241" height="274" key="#Notifications" timestamp="1589465310559">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="902" y="341" width="241" height="274" key="#Notifications/0.0.1500.960@0.0.1500.960" timestamp="1589465310559" />
     <state x="1110" y="271" width="649" height="580" key="DiffContextDialog" timestamp="1587714153959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1110" y="271" width="649" height="580" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587714153959" />
+    <state x="506" y="148" key="SettingsEditor" timestamp="1589468697874">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="506" y="148" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1589468697874" />
     <state x="1110" y="271" width="649" height="580" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587714153959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1110" y="271" width="649" height="580" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587714153959" />
+    <state x="860" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1590333416670">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="860" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1590333416670" />
   </component>
 </project>
