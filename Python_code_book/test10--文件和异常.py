@@ -14,10 +14,14 @@ print('问题1：函数open()  接收一个参数：要打开的文件的名称�
       '    要删除末尾的空行，可在print（）中使用 rstrip() 删除字符串末尾的空白')
 
 print('10.1.2：文件路径====')
+print('--需要注意的是：linux和OS X中，是这样读取文件的：'
+      '  with open("text_files/filename.txt") as file_obj:'
+      '  在windows系统中，文件路径中使用反斜杠（\）而不是斜杆（/）；'
+      '  with open("text_files\filename.txt") as file_obj:')
 
+print('可以使用相对位置，也可以用绝对位置，注意使用的 斜杠 问题')
 
-
-
+print('10.1.3逐行读取====')
 
 
 
