@@ -22,9 +22,37 @@ print('--需要注意的是：linux和OS X中，是这样读取文件的：'
 print('可以使用相对位置，也可以用绝对位置，注意使用的 斜杠 问题')
 
 print('10.1.3逐行读取====')
+print('逐行读取：即加个for循环读取每一行；eg:')
 
+filename = 'pi_digits.txt'
+with open(filename) as file_objs:
+      for line in file_objs:
+            print(line.rstrip())
 
+print('10.1.4:创建一个包含文件各行内容的列表 ==== (相当于在with的代码块外面访问文件里的内容)')
+print('使用readlines() 方法 从文件中读取每一行，并将其存储在一个列表里；')
 
+file = 'pi_digits.txt'
+with open(file) as file_obj:
+      lines = file_obj.readlines()
+for line in lines:
+      print(line.rstrip())
+
+print('10.1.5：使用文件的内容 ====')
+print('在with外部操作文件里面的内容；')
+with open(filename) as file_obj:
+      lines = file_obj.readlines()
+pi_string = ''
+for line in lines:
+      pi_string += line.strip()
+print(pi_string)
+print(len(pi_string))
+
+print('10.1.6：包含一百万位的大型文件====')
+# 前面的with代码块还是和上面的一样，只是打印的时候会只打印一点数据
+print(pi_string[:10]+"...")
+print(len(pi_string))
+print('对于可处理的数据量，python没有任何限制，只要系统的内存足够多，想处理多少数据都可以。')
 
 
 
